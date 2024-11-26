@@ -20,7 +20,7 @@ Companies that provide service to interchange data
    Objects(Contain properties/also called entities) 
 
 RDBMS:
-  Is a Structure DataBase (Contain rows and columns )
+  Is a Structure DataBase (Contain rows and columns) / Having Schema Format 
 
 ER Model:
   Graphical representation of a RDBMS(Which provide the symbols to understand the herichecals of DataBase)
@@ -36,3 +36,44 @@ Relation => represent =>              Diamond
 Week entity => represent =>           Double Rectamgle   (Which is dependent on strong entity)
 Multivalued Attribute => represent => Double Ellipse     (At a time hold multiple values)
 Derived Attribute => represent =>     Doted Ellipse      (Which is derived or dependent on other attribute)
+
+MYSQL(RDBMS)
+  Structure Query Language
+
+Software Use : 
+   Xampp
+
+service provide
+Apatche Server/php admin: 
+
+
+ports:
+Local Host Go through default port
+Default(80)
+     
+
+ MY SQl:
+ DDL(Data Definition Language)/Base on Structure of DataBase
+ Commands:
+ Create Database/ Database Name;
+ Create Table/ Table name ;
+ Alter  Table/Table name
+    Add Column /Column Name/ Data Type;
+    Modify Column/Column Name/Data Type;
+    Drop Column/Column Name/Data Type;
+    Change Column/Column Name/New Column Name/Data Type;
+    Rename Table All Name/Table Name;
+    Truncate(Empty);
+    Drop Table/ Table Name;
+    
+
+ DML(Data Manipulation Language)/Base on records of entities   
+
+Data Types:
+Varchar(Accept 6000 and more characters)
+text 
+int 
+Number 
+dateTime
+time
+enum
