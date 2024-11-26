@@ -1,0 +1,38 @@
+MYSQL:
+ DataBase:
+    Collection of multiple Data:
+
+ Data:
+   Data is a meaningful information
+     eg (Age => 23)  
+
+ Types:
+ DBMS(Data Base MAnagement System)/hold data in single files
+ RDBMS(Relational Data Base Management System)/build the relation between entities
+
+Companies that provide service to interchange data
+ MYSQL
+ SQL Server
+ Oracle
+ MongoDB(DBMS)
+
+ entities:
+   Objects(Contain properties/also called entities) 
+
+RDBMS:
+  Is a Structure DataBase (Contain rows and columns )
+
+ER Model:
+  Graphical representation of a RDBMS(Which provide the symbols to understand the herichecals of DataBase)
+
+Entity => Objects => Table 
+
+ER - model                            symbols
+
+Entity => represent =>                Rectangle
+Atrribute => represent =>             Ellipse
+Connection => represent =>            Line 
+Relation => represent =>              Diamond 
+Week entity => represent =>           Double Rectamgle   (Which is dependent on strong entity)
+Multivalued Attribute => represent => Double Ellipse     (At a time hold multiple values)
+Derived Attribute => represent =>     Doted Ellipse      (Which is derived or dependent on other attribute)
