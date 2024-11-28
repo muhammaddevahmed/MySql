@@ -7,17 +7,17 @@ MYSQL:
      eg (Age => 23)  
 
  Types:
- DBMS(Data Base MAnagement System)/hold data in single files
- RDBMS(Relational Data Base Management System)/build the relation between entities
+ DBMS(Data Base MAnagement System)/hold data in single files/single table format
+ RDBMS(Relational Data Base Management System)/build the relation between entities/multiple table format 
 
 Companies that provide service to interchange data
  MYSQL
  SQL Server
- Oracle
+ Oracle 
  MongoDB(DBMS)
 
  entities:
-   Objects(Contain properties/also called entities) 
+   Objects(Contain properties/also called entities)/Table 
 
 RDBMS:
   Is a Structure DataBase (Contain rows and columns) / Having Schema Format 
@@ -67,13 +67,16 @@ Default(80)
     Drop Table/ Table Name;
     
 
- DML(Data Manipulation Language)/Base on records of entities   
+ DML(Data Manipulation Language)/Base on records of DataBase  
 
 Data Types:
-Varchar(Accept 6000 and more characters)
+Varchar(Accept 6000 and more characters)/for string
 text 
 int 
 Number 
 dateTime
 time
-enum
+enum 
+
+rename use table (rename)
+change use Column(rename)
