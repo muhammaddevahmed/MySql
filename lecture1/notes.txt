@@ -68,6 +68,9 @@ Default(80)
     
 
  DML(Data Manipulation Language)/Base on records of DataBase  
+ insert 
+ update
+ delete
 
 Data Types:
 Varchar(Accept 6000 and more characters)/for string
@@ -80,3 +83,17 @@ enum
 
 rename use table (rename)
 change use Column(rename)
+
+for codition to update we use(Where) clause 
+
+operators:
+  To Perform Some Specific Task 
+
+  And : && 
+  Or : ||
+  Not : |
+
+Where IT 2000 increament 
+where HR 5000 increament
+where Developer 8000 increament 
+where teacher 7500 increamentw

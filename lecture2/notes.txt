@@ -1,0 +1,25 @@
+Constraint: 
+      Can Increase the efficiency of the Data 
+        1. not null
+        2. primary Key
+        3. foreign key
+        4. unique key
+
+Key Attribute: 
+      can return Data uniquely    
+
+non key Attribute:
+      Depends on key Attribute
+
+Primary Key:
+    Primary Key Identify uniques (Record/Data) / Does not allow Duplication of data /
+    doesnot accept default null value / kisy bhi aik entity kai attribute ko sirf aik hi primary key assign ki jaskti hai/aik column ko aik hi primary key assign karsaktay hain.
+
+
+
+Unique Key: 
+    Is only used to make Column Unique / By default accept null value / . In one Table we can use multiple unique key.
+
+Foreign Key:
+      Kisy bhi aik table ki primary key dosray table mai refernce lai kai jati hai os table ki foreign key bun jati hai and it is also called RDBMS.
+      In one table there will be  more then one forign key.  
