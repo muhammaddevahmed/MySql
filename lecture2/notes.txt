@@ -23,3 +23,7 @@ Unique Key:
 Foreign Key:
       Kisy bhi aik table ki primary key dosray table mai refernce lai kai jati hai os table ki foreign key bun jati hai and it is also called RDBMS.
       In one table there will be  more then one forign key.  
+
+ Joins:
+    Joins 1 or more than 1 table 
+     
