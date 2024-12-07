@@ -1,0 +1,13 @@
+Aggregate Function:
+   is a built in function in mySql/it return single row,value 
+   Count();
+   sum();
+   max();
+   min();
+   Average();
+
+Select:
+    Use to filter the data
+
+Group by Clause:
+     use for grouping 
