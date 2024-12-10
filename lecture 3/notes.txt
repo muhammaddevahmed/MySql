@@ -11,3 +11,21 @@ Select:
 
 Group by Clause:
      use for grouping 
+
+Logical Operators:
+     And/Or/not 
+
+Comparison operators:
+   =,>=,<=
+   
+
+Filter Operators:
+    in
+    between
+    Like   
+
+Like operators:
+    work as a regular expression/searching operators
+
+% (wild card)    
+
