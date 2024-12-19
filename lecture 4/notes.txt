@@ -3,3 +3,40 @@ Views:
    create view name 
    As 
    select * TbName
+
+
+  Stored Procedures:
+      Pre compile queries 
+      take ececution time not compilation time so it makes user experience better 
+
+      it is used with virtual tables and used for data manipulation
+
+Two types of stored procedures:
+       1. Parametrized
+       2. Non-Parametized   
+
+Syntax:
+
+DELIMITER //
+
+CREATE PROCEDURE sp_all()        Non-Parametized
+BEGIN
+    SELECT * FROM product;
+END//
+
+ 
+
+
+To call:
+ 
+CALL sp_all() 
+
+
+DELIMITER //
+CREATE PROCEDURE sp_getprobytBrand(in bName varchar(30))   Parametized
+BEGIN
+SELECT
+p.id,p.name,p.price,p.status,p.warranty,p.quantity,b.name FROM product p INNER JOIN brand b ON p.brand_id = b.id WHERE b.name = bName;
+END //
+
+CALL sp_getprobytBrand('infinix')
